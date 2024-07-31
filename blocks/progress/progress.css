@@ -1,0 +1,10 @@
+.progress {
+  position: relative;
+  width: 320px;
+  height: 284px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.controls {
+  height: 284px;
+}
+
+@media (min-width: 768px) {
+  .controls {
+    margin: auto 0;
+    align-self: center;
+    height: 50%;
+  }
+}

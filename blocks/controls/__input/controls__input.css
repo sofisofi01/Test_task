@@ -1,0 +1,24 @@
+.controls__input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.controls__input[type=number] {
+  border: 1px solid #000000;
+  border-radius: 100px;
+  width: 40px;
+  height: 27px;
+  margin-left: 0;
+  padding: auto 0;
+  text-align: right;
+}
+
+.controls__input:checked+label {
+  background: #0856fe;
+}
+
+.controls__input:checked+label:after {
+  left: calc(100% - 2.5px);
+  transform: translateX(-100%);
+}
